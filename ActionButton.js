@@ -304,7 +304,7 @@ const ActionButton = props => {
         {props.verticalOrientation === "up" &&
           props.children &&
           _renderActions()}
-        {_renderMainButton()}
+        //{_renderMainButton()}
         {props.verticalOrientation === "down" &&
           props.children &&
           _renderActions()}
